@@ -182,6 +182,7 @@ header img {
 #shop {
   height: auto;
   min-height: 100vh;
+  margin-top: 5rem;
 }
 
 #shop article img {
