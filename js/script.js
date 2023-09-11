@@ -3,23 +3,23 @@ const { ref, computed } = Vue;
 const product_class = [
     {
         name: '果類',
-        img: 'img/百花湯浴包1.jpg',
+        img: 'img/果類.webp',
     },
     {
-        name: '浴包類',
-        img: 'img/百花湯浴包1.jpg',
+        name: '浴包',
+        img: 'img/浴包.webp',
     },
     {
         name: '茶類',
-        img: 'img/百花湯浴包1.jpg',
+        img: 'img/茶背景.webp',
     },
     {
-        name: '雞湯類',
-        img: 'img/百花湯浴包1.jpg',
+        name: '雞湯',
+        img: 'img/雞湯.webp',
     },
     {
         name: '生活類',
-        img: 'img/百花湯浴包1.jpg',
+        img: 'img/生活.webp',
     },
 ]
 const products = ref([
