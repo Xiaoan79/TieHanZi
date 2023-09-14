@@ -205,7 +205,10 @@ header img {
     display: block;
   }
 }
+#product_list{
+  background: url('../img/背景.jpeg') no-repeat center / cover ;
 
+}
 /* Shop End */
 
 /* contact Start */
