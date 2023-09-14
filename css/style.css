@@ -8,7 +8,7 @@ a {
   text-decoration: none;
 }
 body{
-  background: url('../img/背景.jpeg');
+  background: url('../img/背景.jpeg') no-repeat center / cover ;
 }
 section {
   padding-top: 100px;
