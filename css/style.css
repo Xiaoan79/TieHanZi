@@ -229,16 +229,8 @@ header img {
 /* Shop Start */
 #shop {
   height: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   min-height: 100vh;
   margin-top: 5rem;
-=======
-=======
->>>>>>> parent of 6a7590d (0904_17:47)
-=======
->>>>>>> parent of 6a7590d (0904_17:47)
   display: grid;
   grid-template-rows: 1fr 18fr;
 }
@@ -261,13 +253,6 @@ header img {
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 21fb7f5 (Merge pull request #1 from lucashsu95/main)
-=======
->>>>>>> parent of 6a7590d (0904_17:47)
-=======
->>>>>>> parent of 6a7590d (0904_17:47)
 }
 
 #shop article img {
