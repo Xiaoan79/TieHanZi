@@ -19,13 +19,17 @@ const app = Vue.createApp({
             }
             return total
         })
+        const formOnSubmit = () => {
+            alert('我己經收到了您的回覆!')
+        }
 
         return {
             currentClass,
             product_class,
             products,
             product_sum,
-            product_amount_total
+            product_amount_total,
+            formOnSubmit
         }
     }
 })
