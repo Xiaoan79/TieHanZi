@@ -1,5 +1,3 @@
-const { ref, computed } = Vue;
-
 const product_class = [
     {
         name: '果類',
@@ -22,7 +20,8 @@ const product_class = [
         img: 'img/生活.webp',
     },
 ]
-const products = ref([
+
+const products_data = [
     {
         class: '果類',
         name: '東洋',
@@ -143,43 +142,6 @@ const products = ref([
         img: 'img/靜好 好浴皂.jpg',
         hover_img: 'img/百花湯浴包1.jpg',
     }
-])
-const currentClass = ref('果類')
-const app = Vue.createApp({
-    setup() {
+]
 
-        const product_sum = computed(() => {
-            let total = 0
-            for (let i of products.value) {
-                total += i.amount * i.price
-            }
-            return total
-        })
-        const product_amount_total = computed(() => {
-            let total = 0
-            for (let i of products.value) {
-                total += i.amount
-            }
-            return total
-        })
-        const onMouseMove = (e, url) => {
-            const img = e.querySelector('img')
-            img.src = url;
-        }
-        const onMouseOut = (e, url) => {
-            const img = e.querySelector('img')
-            img.src = url;
-        }
-
-        return {
-            currentClass,
-            product_class,
-            products,
-            product_sum,
-            product_amount_total
-        }
-    }
-})
-
-
-app.mount('#app')
+export { product_class, products_data }

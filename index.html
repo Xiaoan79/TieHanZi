@@ -72,7 +72,7 @@
     </nav>
     <!-- nav End -->
 
- 
+
     <!-- offcanvas Start -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="total_product_list">
       <div class="offcanvas-header">
@@ -133,7 +133,8 @@
       <div>
         <h1 class="sech1">關於帖漢子</h1>
         <p>
-          華人傳統觀念中，男人是家庭的頂樑柱，因此承受了更沉重的壓力。然而，越來越多的疾病也因此快步走向男性，內政部於111年8月19日公布「110年簡易生命表」，國人的平均壽命為80.86歲，其中男性77.67歲、女性84.25歲，由此顯示，男性壽命約比女性減少7年左右。《黃帝內經》中記載了「女七男八」的節律，意思是女性的生命以7，男性則以8為節律，每8年有著一次健康的變化。按照這個規律，男性應該比女性活得更久，可見，男性除了工作壓力大，作息不穩定外，也沒有女性在乎健康，不重視保養身體。身為華人，如果能遵循古法並佐以科學中藥，根據不同年齡的身體變化進行調整，養生與保健的功效必會出乎意料。 本專題即是針對男性養生藥材做出統整與規劃，提倡科學中藥，佐以現代人熟悉的快速沖泡調理包概念，提升不願意花費時間熬製中藥的男性朋友以簡單快速的方式保養身體。
+          華人傳統觀念中，男人是家庭的頂樑柱，因此承受了更沉重的壓力。然而，越來越多的疾病也因此快步走向男性，內政部於111年8月19日公布「110年簡易生命表」，國人的平均壽命為80.86歲，其中男性77.67歲、女性84.25歲，由此顯示，男性壽命約比女性減少7年左右。《黃帝內經》中記載了「女七男八」的節律，意思是女性的生命以7，男性則以8為節律，每8年有著一次健康的變化。按照這個規律，男性應該比女性活得更久，可見，男性除了工作壓力大，作息不穩定外，也沒有女性在乎健康，不重視保養身體。身為華人，如果能遵循古法並佐以科學中藥，根據不同年齡的身體變化進行調整，養生與保健的功效必會出乎意料。
+          本專題即是針對男性養生藥材做出統整與規劃，提倡科學中藥，佐以現代人熟悉的快速沖泡調理包概念，提升不願意花費時間熬製中藥的男性朋友以簡單快速的方式保養身體。
         </p>
       </div>
 
@@ -151,7 +152,8 @@
 
       <div class="container mb-5">
         <div class="row row-cols-3 justify-content-center">
-          <article v-for="{name,img} in product_class" class="col mt-5" @mousemove="onMouseMove($event,product.hover_img)">
+          <article v-for="{name,img} in product_class" class="col mt-5"
+            @mousemove="onMouseMove($event,product.hover_img)">
             <div class="text-center">
               <a @click="currentClass = name" data-bs-toggle="offcanvas" data-bs-target="#product_list">
                 <img :src="img" class="shadow">
@@ -213,7 +215,7 @@
       </form>
     </section>
   </div>
-  <script src="./js/script.js"></script>
+  <script type="module" src="./js/main.js"></script>
 </body>
 
 </html>
