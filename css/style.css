@@ -7,9 +7,15 @@
 a {
   text-decoration: none;
 }
-body{
-  background: url('../img/背景1.jpg') no-repeat center / cover ;
+
+html {
+  scroll-padding-top: 50px;
 }
+
+body {
+  background: url('../img/背景1.jpg') no-repeat center / cover;
+}
+
 section {
   padding-top: 100px;
   width: 100%;
@@ -111,6 +117,10 @@ header img {
   object-fit: cover;
 }
 
+#carouselExampleCaptions :is(h2, p) {
+  text-shadow: 5px 5px 10px black;
+}
+
 /* Carousel End */
 
 /* about Start */
@@ -205,73 +215,30 @@ header img {
     display: block;
   }
 }
-#product_list{
-  background: url('../img/背景.jpeg') no-repeat center / cover ;
 
+#product_list {
+  /* background: url('../img/背景.jpeg') no-repeat center / cover ; */
+  background-color: #fffa;
 }
+
 /* Shop End */
 
 /* contact Start */
 #contact {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 100%;
   background: #eee;
   height: 80vh;
 }
 
-#contact>* {
-  padding: 30px 15%;
-}
-
-.left {
-  text-align: center;
-}
-
-.right {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr) 2fr 1fr;
-  gap: 20px;
-}
-
 #contact .sech1 {
-  font-family: 新細明體;
   color: #b70100;
   margin-bottom: 20px;
   text-align: center;
   font-size: 40px;
 }
 
-#contact h2 {
-  font-size: 28px;
-}
-
-#contact p {
-  font-size: 20px;
-}
-
-#contact :is(input, textarea) {
-  padding: 20px;
-  border: none;
-  border-bottom: 2px solid #999;
-  outline: none;
-  background: none;
-}
-
-#contact :is(input, textarea)::placeholder {
-  color: #999;
-  font-size: 16px;
-}
-
 #contact button {
   margin-left: auto;
-  width: 50%;
-  height: 100%;
-  border: none;
   background: #b00;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
 }
 
 /* contact End */
