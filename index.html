@@ -143,7 +143,6 @@
     </section>
     <!-- shop End -->
 
-
     <!-- offcanvas Start -->
     <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="product_list">
       <div class="offcanvas-header">
@@ -153,9 +152,9 @@
       <section class="offcanvas-body">
         <div class="container">
           <div class="row row-cols-3">
-            <template v-for="product in products">
+            <template v-for="product in products" :key="product.id">
               <!-- article -->
-              <article v-if="product.class == '浴包類'" class="p-2 col product text-center">
+              <article v-if="product.class == currentClass" class="p-2 col product text-center">
                 <!-- product-body -->
                 <div class="product-body mt-3">
                   <img :src="product.img" style="height: 220px;">

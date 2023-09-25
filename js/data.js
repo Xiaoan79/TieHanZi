@@ -23,6 +23,7 @@ const product_class = [
 
 const products_data = [
     {
+        id:1,
         class: '果類',
         name: '東洋',
         price: 85,
@@ -31,6 +32,7 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
+        id:2,
         class: '果類',
         name: '洛梅',
         price: 50,
@@ -39,6 +41,7 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
+        id:3,
         class: '果類',
         name: '棗橙',
         price: 50,
@@ -47,6 +50,7 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
+        id:4,
         class: '茶類',
         name: '靈芝七葉膽茶',
         price: 30,
@@ -55,6 +59,7 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
+        id:5,
         class: '茶類',
         name: '防護茶',
         price: 30,
@@ -63,6 +68,7 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
+        id:6,
         class: '茶類',
         name: '養生茶',
         price: 25,
@@ -71,7 +77,8 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
-        class: '浴包類',
+        id:7,
+        class: '浴包',
         name: '百花湯浴包',
         price: 75,
         amount: 0,
@@ -79,7 +86,8 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
-        class: '浴包類',
+        id:8,
+        class: '浴包',
         name: '放鬆湯浴包',
         price: 75,
         amount: 0,
@@ -87,7 +95,8 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
-        class: '浴包類',
+        id:9,
+        class: '浴包',
         name: '抹草湯浴包',
         price: 75,
         amount: 0,
@@ -95,7 +104,8 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
-        class: '雞湯類',
+        id:10,
+        class: '雞湯',
         name: '粉光參雞湯',
         price: 400,
         amount: 0,
@@ -103,7 +113,8 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
-        class: '雞湯類',
+        id:11,
+        class: '雞湯',
         name: '藥膳雞湯',
         price: 180,
         amount: 0,
@@ -111,7 +122,8 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
-        class: '雞湯類',
+        id:12,
+        class: '雞湯',
         name: '溫膳湯',
         price: 180,
         amount: 0,
@@ -119,6 +131,7 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
+        id:13,
         class: '生活類',
         name: '情緒藥膳包',
         price: 250,
@@ -127,6 +140,7 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
+        id:14,
         class: '生活類',
         name: '藥燉排骨',
         price: 90,
@@ -135,6 +149,7 @@ const products_data = [
         hover_img: 'img/百花湯浴包1.jpg',
     },
     {
+        id:15,
         class: '生活類',
         name: '靜好 好浴皂',
         price: 290,

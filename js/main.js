@@ -1,10 +1,13 @@
-const { ref, computed } = Vue;
+const { ref, computed,onMounted } = Vue;
 import { products_data, product_class } from './data.js';
 
 const currentClass = ref('果類')
 const products = ref(products_data);
 const app = Vue.createApp({
     setup() {
+        onMounted(()=>{
+            console.log(products.value);
+        })      
         const product_sum = computed(() => {
             let total = 0
             for (let i of products.value) {
