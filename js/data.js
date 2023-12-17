@@ -1,23 +1,23 @@
 const product_class = [
     {
         name: '果類',
-        img: 'img/果類.webp',
+        img: 'img/茶1.JPG',
     },
     {
         name: '浴包',
-        img: 'img/浴包.webp',
+        img: 'img/茶5.JPG',
     },
     {
         name: '茶類',
-        img: 'img/茶背景.webp',
+        img: 'img/茶3.JPG',
     },
     {
         name: '雞湯',
-        img: 'img/雞湯.webp',
+        img: 'img/茶4.JPG',
     },
     {
         name: '生活類',
-        img: 'img/生活.webp',
+        img: 'img/茶2.JPG',
     },
 ]
 
